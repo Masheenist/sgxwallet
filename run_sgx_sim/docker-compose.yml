@@ -19,3 +19,5 @@ services:
         max-size: "10m"
         max-file: "4"
     command: -s -y -e
+    cap-add:
+      - SYS_ADMIN
